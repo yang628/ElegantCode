@@ -18,19 +18,6 @@ import java.util.stream.Collectors;
 public class StreamTransform {
     public static void main(String[] args) {
 
-        Person people0 = new Person("aaa",0);
-        Person people1= new Person("bbb",1);
-        Person people2= new Person("bbb",2);
-        Person people3= new Person("ccc",3);
-        Person people4= new Person("ddd",4);
-
-        //必须是加泛型
-        List<Person> peopleList = new ArrayList();
-        peopleList.add(people0);
-        peopleList.add(people1);
-        peopleList.add(people2);
-        peopleList.add(people3);
-        peopleList.add(people4);
         ArrayList<Integer> nums = new ArrayList<>();
         nums.add(null);
         nums.add(1);
