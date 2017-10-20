@@ -16,11 +16,11 @@ public class ListMap {
     public static void main(String[] args) {
 
         //list转map
-        Person people0 = new Person("aaa",0);
-        Person people1= new Person("bbb",1);
-        Person people2= new Person("bbb",2);
-        Person people3= new Person("ccc",3);
-        Person people4= new Person("ddd",4);
+        Person people0 = new Person("aaa", 0);
+        Person people1 = new Person("bbb", 1);
+        Person people2 = new Person("bbb", 2);
+        Person people3 = new Person("ccc", 3);
+        Person people4 = new Person("ddd", 4);
 
         //必须是加泛型
         List<Person> peopleList = new ArrayList();
@@ -31,14 +31,8 @@ public class ListMap {
         peopleList.add(people4);
 
         //过滤
-        long num = peopleList.stream().filter(a -> a.getAge()>2).count();
+        long num = peopleList.stream().filter(a -> a.getAge() > 2).count();
         System.out.println(num);
-
-
-
-
-
-
 
 
     }
