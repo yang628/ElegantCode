@@ -20,5 +20,13 @@
         </plugins>
     </build>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.chrisnewland</groupId>
+            <artifactId>jitwatch</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

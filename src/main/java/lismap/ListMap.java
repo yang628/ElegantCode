@@ -85,7 +85,7 @@ public class ListMap {
         /**
          * List --转--Map
          * map(a -> a)  ：做了窄化映射
-         * Collectors.toMap(person -> person.getAge(),person -> person.getName())    接受参数，进行处理key，value
+         * Collectors.toMap(Person -> Person.getAge(),Person -> Person.getName())    接受参数，进行处理key，value
          *
          */
        Map<Integer, String> listToMap = peopleList.stream().map(a -> a).collect(Collectors.toMap(person -> person.getAge(),person -> person.getName()));
